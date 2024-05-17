@@ -1,0 +1,1170 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.17f1 (4fc78088f837) revision 5228416'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7562 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Unity Study/1stProjectHB
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52492
+Successfully changed project path to: D:/Unity Study/1stProjectHB
+D:/Unity Study/1stProjectHB
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3604] Host "[IP] 26.154.222.173 [Port] 0 [Flags] 2 [Guid] 634320661 [EditorId] 634320661 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3604] Host "[IP] 26.154.222.173 [Port] 0 [Flags] 2 [Guid] 634320661 [EditorId] 634320661 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 34.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1 (4fc78088f837)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Study/1stProjectHB/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 5500M (ID=0x7340)
+    Vendor:   ATI
+    VRAM:     4055 MB
+    Driver:   30.0.13022.3
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.021384 seconds.
+- Loaded All Assemblies, in  0.904 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 693 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.408 seconds
+Domain Reload Profiling: 2309ms
+	BeginReloadAssembly (304ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (144ms)
+	LoadAllAssembliesAndSetupDomain (352ms)
+		LoadAssemblies (302ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (347ms)
+			TypeCache.Refresh (345ms)
+				TypeCache.ScanAssembly (322ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1408ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1278ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (922ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (115ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.044 seconds
+Refreshing native plugins compatible for Editor in 7.21 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.696 seconds
+Domain Reload Profiling: 3735ms
+	BeginReloadAssembly (402ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (1467ms)
+		LoadAssemblies (1124ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (580ms)
+			TypeCache.Refresh (492ms)
+				TypeCache.ScanAssembly (433ms)
+			ScanForSourceGeneratedMonoScriptInfo (70ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1697ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1208ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (86ms)
+			SetLoadedEditorAssemblies (18ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (247ms)
+			ProcessInitializeOnLoadAttributes (770ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 4.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4098 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (61.4 KB). Loaded Objects now: 4565.
+Memory consumption went from 155.6 MB to 155.6 MB.
+Total: 6.269400 ms (FindLiveObjects: 0.456700 ms CreateObjectMapping: 0.508300 ms MarkObjects: 5.079600 ms  DeleteObjects: 0.222900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5410.461895 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c824488521b23767e33a10eeb2428363') in 0.255120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9de4d2f1e531afad0081d76c14772f8') in 0.026776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_Game/2D_Assets/health bar.png
+  artifactKey: Guid(ba53884c6d3c9ec44ba2c2d45101368e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/health bar.png using Guid(ba53884c6d3c9ec44ba2c2d45101368e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '269933394fe9b8c82587e9325934ef38') in 0.232686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/_Game/Animations/Enemy/ERun Animation.anim
+  artifactKey: Guid(13ebe2695858ec447a4c0b910e61836f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/Animations/Enemy/ERun Animation.anim using Guid(13ebe2695858ec447a4c0b910e61836f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34a4c5245c2bbc17ebc51e3a6a2cde45') in 0.029264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/_Game/Animations/Player/JumpOut.anim
+  artifactKey: Guid(15f83db64b9b6084c81308dd1a0d7fcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/Animations/Player/JumpOut.anim using Guid(15f83db64b9b6084c81308dd1a0d7fcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97b7e3cba2eb5dca06c0dc82973eb71c') in 0.019900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Game/TileMap/4.asset
+  artifactKey: Guid(bffc0b90f82599546a1c0853d54289e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/TileMap/4.asset using Guid(bffc0b90f82599546a1c0853d54289e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '880a0a53be37b558b4abf743c2ecfbc5') in 0.045284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_Game/2D_Assets/Evinronment/BG/BackgroundClouds_SpriteSheet.png
+  artifactKey: Guid(6186da9629532ea408d43b68f5848a81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Evinronment/BG/BackgroundClouds_SpriteSheet.png using Guid(6186da9629532ea408d43b68f5848a81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0696c91a95394b79c2f5f4598f7b18d1') in 0.081998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_Game/2D_Assets/Evinronment/Tiles/15.png
+  artifactKey: Guid(e69193583178a6f49b3f9ca988c5790c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Evinronment/Tiles/15.png using Guid(e69193583178a6f49b3f9ca988c5790c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2bb3ad4d8193de75d56f826ebcaa39c8') in 0.081317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Game/2D_Assets/Evinronment/Object/Tree_2.png
+  artifactKey: Guid(1ea282241015f74478d2de9b77876112) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Evinronment/Object/Tree_2.png using Guid(1ea282241015f74478d2de9b77876112) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78fb776c67616ffe56e8a595c0cbf0d2') in 0.081420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/_Game/2D_Assets/Evinronment/Object/Bush (2).png
+  artifactKey: Guid(5261a7f3e36dc224c82148f62ec8d159) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Evinronment/Object/Bush (2).png using Guid(5261a7f3e36dc224c82148f62ec8d159) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7491814c2665ea40a1fdc3176a4c8f1c') in 0.079402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Game/2D_Assets/Evinronment/Tiles/12.png
+  artifactKey: Guid(f76e40f7ca250544aab6d1778bf69e56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Evinronment/Tiles/12.png using Guid(f76e40f7ca250544aab6d1778bf69e56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1727de072ae4f858779aabf2c8207f0c') in 0.081670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_Game/2D_Assets/Evinronment/Object/Bush (4).png
+  artifactKey: Guid(2c7a6bc4ad629c84b9dfb86aef19e8ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Evinronment/Object/Bush (4).png using Guid(2c7a6bc4ad629c84b9dfb86aef19e8ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9903937861dad2e71d92f502e82c7fef') in 0.060153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Game/Animations/Player/Player Controller.controller
+  artifactKey: Guid(79eb85825d4c4874a83bbf57bbc2050e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/Animations/Player/Player Controller.controller using Guid(79eb85825d4c4874a83bbf57bbc2050e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c70ea911ed41330b07d96c9945f9239a') in 0.028184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Game/2D_Assets/Evinronment/BG/EnvironmentProps_TileSet.png
+  artifactKey: Guid(c29fbbed4b52ea24a86c0ba6cf9e84e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Evinronment/BG/EnvironmentProps_TileSet.png using Guid(c29fbbed4b52ea24a86c0ba6cf9e84e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f89df5d86867ff925266a28942e73847') in 0.065144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0db493f55a80258969dae1e29bef4108') in 0.030138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Attack/Attack__000.png
+  artifactKey: Guid(6dd9a70d72a8c8540bf9688901e6f77d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Attack/Attack__000.png using Guid(6dd9a70d72a8c8540bf9688901e6f77d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c194c7deac65278f35731433a8c21bf') in 0.067549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Game/2D_Assets/Evinronment/Tiles/4.asset
+  artifactKey: Guid(77f8d6b07eefcaf4b9333b9a21f256ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Evinronment/Tiles/4.asset using Guid(77f8d6b07eefcaf4b9333b9a21f256ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b24524b25ed162090e6431b326918254') in 0.025705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Game/2D_Assets/Evinronment/Tiles/6.png
+  artifactKey: Guid(f8112d1e63d57344ebbe8779f6ead596) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Evinronment/Tiles/6.png using Guid(f8112d1e63d57344ebbe8779f6ead596) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f84893e7560303187102d40127803bc9') in 0.072405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Game/2D_Assets/Evinronment/Tiles/2.png
+  artifactKey: Guid(dd803c42ba877084c9c73d7a7d47bde5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Evinronment/Tiles/2.png using Guid(dd803c42ba877084c9c73d7a7d47bde5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03edd6ab6ad44bb83c04361de40bb966') in 0.073385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/_Game/2D_Assets/Evinronment/Tiles/16.png
+  artifactKey: Guid(84a9548ae40e5e84988048cb525919d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Evinronment/Tiles/16.png using Guid(84a9548ae40e5e84988048cb525919d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0cb6447b23bc0719933f9e8c1d96bfc6') in 0.076876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca7f899c1c8549aafd5aa9df5fb900ce') in 0.029825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba125e0918f53a48e93f2898a6431136') in 0.055548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/_Game/Scripts/CombatText.cs
+  artifactKey: Guid(bcc1c578eae3b7b4e8b74fab1ab3e558) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/Scripts/CombatText.cs using Guid(bcc1c578eae3b7b4e8b74fab1ab3e558) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '742f393e70b1cf82709ac45f3fd6817e') in 0.032849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/_Game/2D_Assets/Evinronment/Tiles/9.png
+  artifactKey: Guid(3b506425061eec341979d6cab6da2bc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Evinronment/Tiles/9.png using Guid(3b506425061eec341979d6cab6da2bc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b633d3b1ab6c669151acbf6e7043e3b7') in 0.105135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_Game/2D_Assets/Evinronment/Tiles/9.asset
+  artifactKey: Guid(dc2c6cfd7a893464e801418e575284d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Evinronment/Tiles/9.asset using Guid(dc2c6cfd7a893464e801418e575284d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f10b8a08fc4feb7b8264b04870451c9') in 0.021840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/_Game/TileMap/7.asset
+  artifactKey: Guid(88b07f49a52bd3647ad805700981fa88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/TileMap/7.asset using Guid(88b07f49a52bd3647ad805700981fa88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5afa7dbc70a3b37b980a51ffabdbba7d') in 0.027944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Attack1/Attack__102.png
+  artifactKey: Guid(1d57a2d4482ce9844a424797d2d36db8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Attack1/Attack__102.png using Guid(1d57a2d4482ce9844a424797d2d36db8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53d1cb83f33df0b9cd342c652f12b88c') in 0.067789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Climb/Climb_004.png
+  artifactKey: Guid(8cd9e3bc9070e094eb794e51e2e1dfa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Climb/Climb_004.png using Guid(8cd9e3bc9070e094eb794e51e2e1dfa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9284b7990faaaa325c246e67287123e0') in 0.097083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Attack2/Attack__201.png
+  artifactKey: Guid(601ba1cffe23f01418e518a41318a12c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Attack2/Attack__201.png using Guid(601ba1cffe23f01418e518a41318a12c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '326733cdd1d251fa7bd1ac8b0b54a9dd') in 0.081504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Climb/Climb_009.png
+  artifactKey: Guid(4e32d0893e9b7fb4a80df521293e5b72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Climb/Climb_009.png using Guid(4e32d0893e9b7fb4a80df521293e5b72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1829e59fab70995fb84a3f950d01ff16') in 0.064641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Attack1/Attack__104 .png
+  artifactKey: Guid(c9bb418b46737b940826f5655cec10f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Attack1/Attack__104 .png using Guid(c9bb418b46737b940826f5655cec10f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a3d21e78d1f7c92bdaea4a0a2c58e68') in 0.072235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Attack2/Attack__200.png
+  artifactKey: Guid(2ad1203b5ac6c7c47aee7ec1176907cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Attack2/Attack__200.png using Guid(2ad1203b5ac6c7c47aee7ec1176907cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8b0c0bd64c81f798e1622317f2e1fe6') in 0.087244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9c76f067e8f9ba46031d91f0f116029') in 0.117816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Idle/Idle__002.png
+  artifactKey: Guid(d69d65316c636aa429aaef2938b21760) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Idle/Idle__002.png using Guid(d69d65316c636aa429aaef2938b21760) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51f1abfbb6c46f4a38c10a62627344cb') in 0.095854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Glide/Glide_009.png
+  artifactKey: Guid(e0ea218d2a257e747bd01273483dc056) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Glide/Glide_009.png using Guid(e0ea218d2a257e747bd01273483dc056) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c063ef5a1a80afb8157d86b58ef7b12') in 0.113317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Idle/Idle__004.png
+  artifactKey: Guid(d00fdc6e67803844fa1406353a723369) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Idle/Idle__004.png using Guid(d00fdc6e67803844fa1406353a723369) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca2f983b4c04e2dc09688f998a5ac958') in 0.089863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Glide/Glide_007.png
+  artifactKey: Guid(1914b04135914f644b02f891bd145c90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Glide/Glide_007.png using Guid(1914b04135914f644b02f891bd145c90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81bd1bdb32eeb2a673e5dcba6aef2d7c') in 0.071228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '70a408c7f089ab33f251d610f1ad0499') in 0.015350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/_Game/2D_Assets/Evinronment/BG/BG.png
+  artifactKey: Guid(9bd2d0a029c0c3b479ad2a4bf80e425d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Evinronment/BG/BG.png using Guid(9bd2d0a029c0c3b479ad2a4bf80e425d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a3fcac2865f655be293dc7bc02dfab13') in 0.083093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de3211c6d362158566ef9c8ab01faa60') in 0.032056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_Game/Animations/Enemy/EDeathAnimation.anim
+  artifactKey: Guid(722b435bd9000d849ae5781cb1046d09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/Animations/Enemy/EDeathAnimation.anim using Guid(722b435bd9000d849ae5781cb1046d09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5102a1c5b0b3169947b6b87f5d499ad') in 0.028412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Game/2D_Assets/Evinronment/Object/Bush (3).png
+  artifactKey: Guid(f9f3cbe374f2047409ef1c74234c6517) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Evinronment/Object/Bush (3).png using Guid(f9f3cbe374f2047409ef1c74234c6517) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '571d7752410fdd2fc2cf0c35b7d00eed') in 0.081442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Jump_Att/Jump_Attack__002.png
+  artifactKey: Guid(1562c74596a8ff948ba56953365dd296) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Jump_Att/Jump_Attack__002.png using Guid(1562c74596a8ff948ba56953365dd296) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f91fd0fadfb17a754ab7fbc5da53732') in 0.076810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Jump/Jump__000.png
+  artifactKey: Guid(7aabb0e58a436ab46815d4bec39ab7ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Jump/Jump__000.png using Guid(7aabb0e58a436ab46815d4bec39ab7ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9419d25c79d4cb631bac1d2559d15bb') in 0.065079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Idle/Idle__007.png
+  artifactKey: Guid(76f0cc99f3ee2954497209d684186d0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Idle/Idle__007.png using Guid(76f0cc99f3ee2954497209d684186d0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1eaf1d611d50df48af26a6f4f2d97a3') in 0.060255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Jump/Jump__004.png
+  artifactKey: Guid(e8c776a3dd2971e45b7a088f1e7abd0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Jump/Jump__004.png using Guid(e8c776a3dd2971e45b7a088f1e7abd0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c101517320fb300a30f19812b0a99a8') in 0.064086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Jump_Att/Jump_Attack__004.png
+  artifactKey: Guid(85ed82a36afa16944bdc6888d8bd1e20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Jump_Att/Jump_Attack__004.png using Guid(85ed82a36afa16944bdc6888d8bd1e20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50841f1b744a2314184686b3ddff94bf') in 0.103384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Jump_Att/Jump_Attack__005.png
+  artifactKey: Guid(9b7f12d1b7b1b7f498ccf96bc25d8a88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Jump_Att/Jump_Attack__005.png using Guid(9b7f12d1b7b1b7f498ccf96bc25d8a88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '043d7cbf5c46353afa52610af400b7be') in 0.098160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Run/Run__001.png
+  artifactKey: Guid(d5605f35469140841917a88c10e3311f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Run/Run__001.png using Guid(d5605f35469140841917a88c10e3311f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '73f907713502820c5471d3c670a4482c') in 0.078603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Jump_thr/Jump_Throw__004.png
+  artifactKey: Guid(b9ee1e66483055c4aad5d66228c48617) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Jump_thr/Jump_Throw__004.png using Guid(b9ee1e66483055c4aad5d66228c48617) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12c2141a1e2ee278666cb7d592402062') in 0.094976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Jump_thr/Jump_Throw__009.png
+  artifactKey: Guid(c74616a6e7213a24992b6dfb6848ddca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Jump_thr/Jump_Throw__009.png using Guid(c74616a6e7213a24992b6dfb6848ddca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc99cd234bdfcedfc910a069a446191a') in 0.107419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Run/Run__003.png
+  artifactKey: Guid(382cd279b5a479441861ddca46f1207c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Run/Run__003.png using Guid(382cd279b5a479441861ddca46f1207c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a70e79644ecb2ddbace7878c3f8c447') in 0.089401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Jump_thr/Jump_Throw__005.png
+  artifactKey: Guid(add1b55fa281c8c44a0bf11a287c9bed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Jump_thr/Jump_Throw__005.png using Guid(add1b55fa281c8c44a0bf11a287c9bed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9da3e1e4b73e9c1513136790da48d68f') in 0.071622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eeec80fb30bb905806e7d7d89a1b50d0') in 0.022084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/_Game/Scripts/AttackArea.cs
+  artifactKey: Guid(3fb019c26457fc14ca467fb3a974b09b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/Scripts/AttackArea.cs using Guid(3fb019c26457fc14ca467fb3a974b09b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9d4972f0bf4675275680c21087b9420') in 0.022649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Slide/Slide__004.png
+  artifactKey: Guid(b69768a70dddeb94aaf6a445b3298adb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Slide/Slide__004.png using Guid(b69768a70dddeb94aaf6a445b3298adb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7da5dc071c609b974d93a64cfc007029') in 0.094072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/SleepIdle/Idle_Asleep__004.png
+  artifactKey: Guid(5d0ac290d45444a4991bd0960c7200ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/SleepIdle/Idle_Asleep__004.png using Guid(5d0ac290d45444a4991bd0960c7200ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '415991197e5eca8b102d45242777b796') in 0.066176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/SleepIdle/Idle_Asleep__003.png
+  artifactKey: Guid(d928e8dcb41b82f40b9161719a85478e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/SleepIdle/Idle_Asleep__003.png using Guid(d928e8dcb41b82f40b9161719a85478e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a405553eec2126e8d48ff162b2f2b50') in 0.080799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/SleepIdle/Idle_Asleep__001.png
+  artifactKey: Guid(e029be3ab063c9c48a963ba92d705b1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/SleepIdle/Idle_Asleep__001.png using Guid(e029be3ab063c9c48a963ba92d705b1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '232c4472c4df06abe77855649b486271') in 0.097506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/SleepIdle/Idle_Asleep__002.png
+  artifactKey: Guid(16fc7b2b501816c4ea95f7adc0fd4315) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/SleepIdle/Idle_Asleep__002.png using Guid(16fc7b2b501816c4ea95f7adc0fd4315) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12ffaafd282328066fd9174097cfbbd5') in 0.091941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Slide/Slide__002.png
+  artifactKey: Guid(4dbd6f0f63dfffc46b99882ba4e161bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Slide/Slide__002.png using Guid(4dbd6f0f63dfffc46b99882ba4e161bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cee6405adad81bc7d62fbed1f9dcf948') in 0.084233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/SleepIdle/Idle_Asleep__005.png
+  artifactKey: Guid(abda8bcfd57e5c948a610d62ebdeeb19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/SleepIdle/Idle_Asleep__005.png using Guid(abda8bcfd57e5c948a610d62ebdeeb19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60bbf10b06d29b903c359b3188a4a9e1') in 0.069640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Game/2D_Assets/NinjaEnemy/Attack/Attack__006.png
+  artifactKey: Guid(5d467ab245144bc4dbfa717d7e39218b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/NinjaEnemy/Attack/Attack__006.png using Guid(5d467ab245144bc4dbfa717d7e39218b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12ba4c14cbc2f823e361e2b15a27c34c') in 0.076689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Throw/Throw__007.png
+  artifactKey: Guid(11a7bc986290c62449b3257347f5160c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Throw/Throw__007.png using Guid(11a7bc986290c62449b3257347f5160c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e91c708b26d9b99a804f44e8b147fe5') in 0.087561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/_Game/2D_Assets/NinjaEnemy/Attack/Attack__008.png
+  artifactKey: Guid(3902b251bac839748ba59f2cc38a94c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/NinjaEnemy/Attack/Attack__008.png using Guid(3902b251bac839748ba59f2cc38a94c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f14d26521402c9f7d39828dd88d97b37') in 0.088065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Throw/Throw__004.png
+  artifactKey: Guid(41636ded80f84834c84cebae3dd57b8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Throw/Throw__004.png using Guid(41636ded80f84834c84cebae3dd57b8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '73112a6d36dfc007ca87cc92f82ced94') in 0.072633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Game/2D_Assets/NinjaEnemy/Attack/Attack__007.png
+  artifactKey: Guid(d1e6d51a8880a1145b6d733bdac97773) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/NinjaEnemy/Attack/Attack__007.png using Guid(d1e6d51a8880a1145b6d733bdac97773) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23221b92a224eaa67ed346562de0dd29') in 0.084164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Run/Run__009.png
+  artifactKey: Guid(5dc5240677a3ee84d8d8907b960c4d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Run/Run__009.png using Guid(5dc5240677a3ee84d8d8907b960c4d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b1d611336b06b8af7bbc48529335669') in 0.080733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/_Game/2D_Assets/NinjaEnemy/Dead/Dead__003.png
+  artifactKey: Guid(579fae4642ee99442818d3d0682c1524) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/NinjaEnemy/Dead/Dead__003.png using Guid(579fae4642ee99442818d3d0682c1524) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8aeb132d9515442814ea46c786b5fcce') in 0.077970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Game/2D_Assets/NinjaEnemy/Dead/Dead__009.png
+  artifactKey: Guid(38bd45dd244d1334b9047c77a39b568f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/NinjaEnemy/Dead/Dead__009.png using Guid(38bd45dd244d1334b9047c77a39b568f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fed45981017003b09b465a86f33c6402') in 0.071463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Game/2D_Assets/NinjaEnemy/Dead/Dead__007.png
+  artifactKey: Guid(2f9993f29aad45b4680bf0254ca4f17a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/NinjaEnemy/Dead/Dead__007.png using Guid(2f9993f29aad45b4680bf0254ca4f17a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e24efc7d997fb0b173a785e764c3723e') in 0.072324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/_Game/2D_Assets/Evinronment/Tiles/6.asset
+  artifactKey: Guid(22923e8e59c283a4aa99a53b3198f48e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Evinronment/Tiles/6.asset using Guid(22923e8e59c283a4aa99a53b3198f48e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c057b8f734026f6cb5674a70c6849f3') in 0.029410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Attack2/Attack__205.png
+  artifactKey: Guid(22884c06ca83d5245ab7b34914cf107d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Attack2/Attack__205.png using Guid(22884c06ca83d5245ab7b34914cf107d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '462735bc377a610dad109d8e2a4cb325') in 0.091460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_Game/2D_Assets/NinjaEnemy/Dead/Dead__000.png
+  artifactKey: Guid(8c5fb1e483591ff4ea5b1ddc1d5153e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/NinjaEnemy/Dead/Dead__000.png using Guid(8c5fb1e483591ff4ea5b1ddc1d5153e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f9903da728d06e8f5242722a2b4481a') in 0.067780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Attack2/Attack__204.png
+  artifactKey: Guid(77411556900db3645a2e804faaa03055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Attack2/Attack__204.png using Guid(77411556900db3645a2e804faaa03055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1d74317920e3e1362c198e987c3b315') in 0.063866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b663bbd7da157fe92119dde4461a6e63') in 0.027574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/_Game/TileMap/8.asset
+  artifactKey: Guid(91b77375f9a00944687ee30411723691) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/TileMap/8.asset using Guid(91b77375f9a00944687ee30411723691) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '526c25ad42ce9f88991ecb18df2eb261') in 0.029880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Game/2D_Assets/NinjaEnemy/Run/Run__003.png
+  artifactKey: Guid(47554ed4b7f3dfd45b79cd70977d9f53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/NinjaEnemy/Run/Run__003.png using Guid(47554ed4b7f3dfd45b79cd70977d9f53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46d52b262b7234e5cbb90cc8173616eb') in 0.086157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Game/2D_Assets/NinjaEnemy/Run/Run__007.png
+  artifactKey: Guid(6d7621286fa41bb4dbff41765bd4fcd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/NinjaEnemy/Run/Run__007.png using Guid(6d7621286fa41bb4dbff41765bd4fcd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40d4b6d3cf1a2f78d8e451e6914e8ed3') in 0.078063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Game/2D_Assets/NinjaEnemy/Run/Run__009.png
+  artifactKey: Guid(189e641e78c7bd541a601b2546bad833) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/NinjaEnemy/Run/Run__009.png using Guid(189e641e78c7bd541a601b2546bad833) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a81313a14885e1b24d0ab3f611b9d79') in 0.078997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Climb/Climb_003.png
+  artifactKey: Guid(1e6cc4f2a27b01741ac425363bffd507) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Climb/Climb_003.png using Guid(1e6cc4f2a27b01741ac425363bffd507) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23773d76e60f2b8131d47abaa3321e9f') in 0.094954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Glide/Glide_003.png
+  artifactKey: Guid(32bb452ed735ba047b082bd37279fe5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Glide/Glide_003.png using Guid(32bb452ed735ba047b082bd37279fe5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa8d7721e23a43fd7e5f4717f31447fa') in 0.080458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f68a2bae9cb89f328952531aa7385797') in 0.028949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Game/2D_Assets/NinjaEnemy/Dead/Dead__004.png
+  artifactKey: Guid(d13065583646ebb42a0e2dba62b0580d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/NinjaEnemy/Dead/Dead__004.png using Guid(d13065583646ebb42a0e2dba62b0580d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e30f8a69977dcfb2b87adfa442036515') in 0.081923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000716 seconds.
+  path: Assets/_Game/TileMap/9.asset
+  artifactKey: Guid(73f4666307b56244f8838f5338c752cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/TileMap/9.asset using Guid(73f4666307b56244f8838f5338c752cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7dfa1a036c6365be2f95776d51437e8f') in 0.028754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Attack/Attack__008.png
+  artifactKey: Guid(e8b59385d4ebb1640b315354f4fe77c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Attack/Attack__008.png using Guid(e8b59385d4ebb1640b315354f4fe77c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a2fd8d7c61e0a5ea632ea3c9aa1a5e4') in 0.079532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Run/Run__005.png
+  artifactKey: Guid(85ee90480acdd054990d8dcd69985bf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Run/Run__005.png using Guid(85ee90480acdd054990d8dcd69985bf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e13cc922b0a3ce0d35d42dc20bc119e9') in 0.062284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_Game/2D_Assets/Evinronment/Tiles/7.asset
+  artifactKey: Guid(ed428a4dd761c31459f00871137dfa3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Evinronment/Tiles/7.asset using Guid(ed428a4dd761c31459f00871137dfa3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88a5b175302d9ff489b57b62b4250af8') in 0.040688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Game/2D_Assets/Evinronment/Object/Bush (1).png
+  artifactKey: Guid(09b5e0c27ee30d1408593d304c125bd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Evinronment/Object/Bush (1).png using Guid(09b5e0c27ee30d1408593d304c125bd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e724e2696ed6b5bf48ead6b4451b74c') in 0.112215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/_Game/2D_Assets/NinjaEnemy/Throw/Throw__000.png
+  artifactKey: Guid(41ce1a32b64ec4e4e9b572a9712b792b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/NinjaEnemy/Throw/Throw__000.png using Guid(41ce1a32b64ec4e4e9b572a9712b792b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '25e04e8f11ff3c1ed9b3484860fa3c22') in 0.073402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/_Game/2D_Assets/NinjaEnemy/Idle/Idle__001.png
+  artifactKey: Guid(43424fdc68360544c9b272fef4053188) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/NinjaEnemy/Idle/Idle__001.png using Guid(43424fdc68360544c9b272fef4053188) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '49f4d130dab034f62e4f11cfc925fd37') in 0.087080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/_Game/2D_Assets/NinjaEnemy/Throw/Throw__006.png
+  artifactKey: Guid(6b08f24d52ae3a44baa4b67920d464f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/NinjaEnemy/Throw/Throw__006.png using Guid(6b08f24d52ae3a44baa4b67920d464f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fce3cad8b32d672563228f3344d2315c') in 0.089182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/_Game/2D_Assets/NinjaEnemy/Run/Run__006.png
+  artifactKey: Guid(ad4b1071ccad0974e9ae44d226e576c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/NinjaEnemy/Run/Run__006.png using Guid(ad4b1071ccad0974e9ae44d226e576c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '813167fb7ad1b56ee9c7bec5b51aaae9') in 0.072296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Jump_thr/Jump_Throw__008.png
+  artifactKey: Guid(1e09bc2066760b44fa688b97ed2d76a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Jump_thr/Jump_Throw__008.png using Guid(1e09bc2066760b44fa688b97ed2d76a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88c339f54eee4866b9bb85f6de0e9432') in 0.074586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/_Game/Animations/Coin/coin_0.controller
+  artifactKey: Guid(3da26439b157f0c489c96c24ff0927a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/Animations/Coin/coin_0.controller using Guid(3da26439b157f0c489c96c24ff0927a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '366e57216de0bfadbedb45624baea56d') in 0.023484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Game/2D_Assets/NinjaEnemy/Attack/Attack__009.png
+  artifactKey: Guid(2f50da08a8caa9a49a8d5a19d28c1f2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/NinjaEnemy/Attack/Attack__009.png using Guid(2f50da08a8caa9a49a8d5a19d28c1f2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd37af4251a2c0e06c4c11c68b3c2058e') in 0.090160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Jump_Att/Jump_Attack__001.png
+  artifactKey: Guid(835599a7820731a4198896e93ee0e1f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Jump_Att/Jump_Attack__001.png using Guid(835599a7820731a4198896e93ee0e1f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c9a7d4357d633f3e724690c91686de5') in 0.093354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Run/Run__002.png
+  artifactKey: Guid(1892fd4d25d8ce24d9d30c6adf664450) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Run/Run__002.png using Guid(1892fd4d25d8ce24d9d30c6adf664450) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '583243230634f001b1ad024886b59738') in 0.088934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/_Game/Scripts/StateMachine/IState.cs
+  artifactKey: Guid(abd6c169bf0b4e14482317f24bf37962) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/Scripts/StateMachine/IState.cs using Guid(abd6c169bf0b4e14482317f24bf37962) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '979ff9f97bafe0f12dbacc6a4f85429a') in 0.023112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Game/2D_Assets/Evinronment/Tiles/11.asset
+  artifactKey: Guid(3be8bf47d7a1ea443949dfec685c1bb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Evinronment/Tiles/11.asset using Guid(3be8bf47d7a1ea443949dfec685c1bb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '748cf4eba5983a5c4c442ef91f339385') in 0.028210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Game/TileMap/12.asset
+  artifactKey: Guid(9918e4de3cf694542abf10da51db9aa5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/TileMap/12.asset using Guid(9918e4de3cf694542abf10da51db9aa5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47f43cf9ad7f68550e3f87f334bb9df5') in 0.039244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Game/Animations/Player/JumpIn.anim
+  artifactKey: Guid(c00cca382459b21449e0cde505a6105b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/Animations/Player/JumpIn.anim using Guid(c00cca382459b21449e0cde505a6105b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f4da09caa1fce2209ffaaa634e0173e') in 0.031849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Jump/Jump__008.png
+  artifactKey: Guid(31ec81d522a7f704c9c568a07aa296b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Jump/Jump__008.png using Guid(31ec81d522a7f704c9c568a07aa296b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be74b00fef8bd4fd4d32bdd50e327633') in 0.091967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/_Game/2D_Assets/NinjaEnemy/Idle/Idle__004.png
+  artifactKey: Guid(00cf6706ecac1e9428ae630152d8ecd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/NinjaEnemy/Idle/Idle__004.png using Guid(00cf6706ecac1e9428ae630152d8ecd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e1819ce971c287315188d4496cef87e') in 0.067051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Game/TileMap/18.asset
+  artifactKey: Guid(f8f9a70130f1ad54584a53fbcd001396) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/TileMap/18.asset using Guid(f8f9a70130f1ad54584a53fbcd001396) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3eb2cf75c4e50c4a32cf114316fdeadd') in 0.020531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Dead/Dead__006.png
+  artifactKey: Guid(a2613a7502937e442b51a5b7b9a104bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Dead/Dead__006.png using Guid(a2613a7502937e442b51a5b7b9a104bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66272974761a1c5060bf38ad846c08ec') in 0.080023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/_Game/2D_Assets/Ninja/Glide/Glide_005.png
+  artifactKey: Guid(5a47b2bb2932d3a4bb490f2d3edecfc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Ninja/Glide/Glide_005.png using Guid(5a47b2bb2932d3a4bb490f2d3edecfc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a6030fe89737847b2fcd846a89efadf5') in 0.067650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Game/Animations/Enemy/EAttack Animation.anim
+  artifactKey: Guid(1ec5ad531f502834e9e245fc8f74742c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/Animations/Enemy/EAttack Animation.anim using Guid(1ec5ad531f502834e9e245fc8f74742c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc8916edaacca66d28c264e44ed4fbb0') in 0.025330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_Game/2D_Assets/Evinronment/Object/Stone.png
+  artifactKey: Guid(b6c65f12483fc8b47ae968dd45f63fdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Game/2D_Assets/Evinronment/Object/Stone.png using Guid(b6c65f12483fc8b47ae968dd45f63fdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3b52a5b3d9a422a0e89be022d1e3b1d') in 0.086950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
